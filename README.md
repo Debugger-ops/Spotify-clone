@@ -51,6 +51,27 @@ python -m http.server 8000
 - Media queries for responsive design
 - CSS animations for smooth transitions
 - Custom scrollbar styling
+  
+**###Javascript Feature**
+1- Audio Player Controls
+Feature: Play, pause, skip, shuffle, repeat, volume control.
+How to Implement:
+Use the HTML5 <audio> element for basic audio controls.
+Use JavaScript to handle events like play(), pause(), skip(), and adjust volume.
+For a more advanced player, integrate the Spotify Web Playback SDK for handling real Spotify streams.
+
+2-Track Details (Album Art, Song Info, etc.)
+Feature: Show the song title, artist name, album art, and other relevant metadata.
+How to Implement:
+Fetch song details from the Spotify API or your backend and display them in the UI.
+Dynamically update the player with album art, song titles, and artist names.
+
+3-Now Playing Bar
+Feature: Display the currently playing song with options for pause, skip, and other controls.
+How to Implement:
+Use JavaScript to update the UI with the current song's metadata (song title, artist name, etc.).
+Create a sticky player bar that updates as the song progresses, with options to control playback.
+
 
 
 ## Core Functionality
